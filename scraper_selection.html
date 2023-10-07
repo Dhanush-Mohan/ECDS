@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select a Scraper</h1>
+        <div class="button-container">
+            <button id="amazon-btn">Amazon Scraper</button>
+            <button id="flipkart-btn">Flipkart Scraper</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("amazon-btn").addEventListener("click", function() {
+            // Redirect to the Amazon scraper Streamlit link
+            window.location.href = "https://e-commerce-data-retriever.streamlit.app/";
+        });
+
+        document.getElementById("flipkart-btn").addEventListener("click", function() {
+            // Redirect to the Flipkart scraper Streamlit link
+            window.location.href = "#";
+        });
+    </script>
+</body>
+</html>
